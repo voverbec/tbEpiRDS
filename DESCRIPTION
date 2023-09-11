@@ -1,0 +1,16 @@
+Package: tbEpiRDS
+Type: Package
+Title: Spatial Analysis and Data Manipulation for TB Epidemiology/RDS Studies
+Version: 0.1.0
+Author: Victoria Overbeck (with assistance from Sam Malatesta & Tyler Brown)
+Maintainer: <voverbec@gmail.com>
+Description: This R package is designed for conducting spatial analysis, data manipulation, and visualizations specific to Tuberculosis (TB) epidemiology and Respondent-Driven Sampling (RDS) studies. This package aims to streamline the data analysis workflow and enhance the reproducibility of research in TB epidemiology and RDS studies. It is a valuable resource for public health researchers, epidemiologists, and data scientists working in this field. It provides a comprehensive toolkit for researchers and analysts working with TB-related data, enabling them to perform the following tasks:
+    - Convert units to days for symptom screening using the `%sans%` and `convert_to_day` functions.
+    - Create customized ggplot themes for visualizing data with the `theme_enroll` function.
+    - Generate edge lists from coupon data with the `create_edge_list` function, which is essential for network analysis in RDS studies.
+    - Calculate activity spaces and convex hulls with the `activity_space` function, allowing for the assessment of geographical patterns in TB transmission.
+    - Compute the proportion overlap between two spatial polygons with the `olp` function, facilitating the evaluation of spatial concordance.
+    - Perform overlap analyses between participants' activity spaces using the `calculate_overlap` function, supporting the exploration of potential exposure to TB.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
