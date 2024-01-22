@@ -39,5 +39,4 @@ clean_text_variable <- function(variable, term_to_search, std_name) {
     return(cleaned_variable)
 }
 
-# Example usage:
-data$sc_bar1_cleaned <- clean_text_variable(data$sc_bar1, "LOUNGE", "THE LOUNGE")
+
