@@ -26,7 +26,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 }
 
 # Install tbEpiRDS
-devtools::install_github("your_username/tbEpiRDS")
+devtools::install_github("voverbec/tbEpiRDS")
 ```
 
 ## Usage
