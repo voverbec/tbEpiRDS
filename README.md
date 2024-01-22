@@ -13,6 +13,7 @@
 - Calculate activity spaces and convex hulls with the `activity_space` function, allowing for the assessment of geographical patterns in TB transmission.
 - Compute the proportion overlap between two spatial polygons with the `olp` function, facilitating the evaluation of spatial concordance.
 - Perform overlap analyses between participants' activity spaces using the `calculate_overlap` function, supporting the exploration of potential exposure to TB.
+-  Clean text variables by making responses uppercase, trimming leading and trailing spaces, reducing repeated whitespace inside the string, and searching for a specified term to replace with a standardized name using the `clean_text_variable` function.
 
 ## Installation
 
